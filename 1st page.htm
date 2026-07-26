@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel management website</title>
+    <style>
+        *{
+    margin:6px;
+    padding:4px;
+    box-sizing:8px;
+    font-family:Arial;
+}
+   
+body{
+    background:whitesmoke;
+}
+header{
+    background:#3164b1;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:rgb(132, 158, 220);
+    text-align:center;
+    padding:10px;
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    
+}
+section {
+    background:rgb(230, 224, 224);
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+      font-family:2px;
+     background-color: rgb(140, 155, 182);
+    
+}
+
+h2{
+    color:rgb(235, 233, 233);
+    margin-bottom:10px;
+}
+ul{
+    margin-left:20px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+table,th,td{
+    border:1px solid black;
+}
+th{
+    background:blueviolet;
+    color:white;
+}
+th,td{
+    padding:10px;
+    text-align:center;
+}
+   input,textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+button{
+    background:#0d6efd;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+}
+button:hover{
+    background:#0047ab;
+}
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hostel Management Website</h1>
+        <h3>Welcome to My College Hostel</h3>
+
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#Facilities">Facilities</a>
+        <a href="#Mess">Mess</a>
+        <a href="#rules">Rules</a>
+        <a href="#complaint">Complaint</a>
+    </nav>
+    
+<section  id="about">
+<h2>About Hostel</h2>
+<ul>
+    <li> Our hostel mess provides fresh, healthy, and hygienic food for all students </li>
+    <li>A balanced diet is prepared by experienced cooks to maintain students' health and energy</li>
+    <li>The mess serves breakfast, lunch, evening snacks, and dinner with a variety of nutritious meals.</li>
+    <li>Cleanliness and food quality are given top priority in our mess.</li>
+</ul>
+</section>
+
+    <section id="Facilities">
+<h2>Facilities</h2>
+<ul>
+<li> Comfortable Rooms</li>
+<li> Free Wi-Fi</li>
+<li> Healthy Mess Food</li>
+<li> 24×7 Security</li>
+<li> Power Backup</li>
+<li> Clean Bathrooms</li>
+</ul>
+
+</section>
+
+<section id="Mess">
+
+<h2>Mess</h2>
+<table>
+
+<tr>
+<th>Day</th>
+<th>Breakfast</th>
+<th>Lunch</th>
+<th>Dinner</th>
+</tr>
+
+<tr>
+<td>Monday</td>
+<td>Poha + Tea</td>
+<td>Rice + Dal + Sabji</td>
+<td>Roti + Paneer</td>
+</tr>
+
+<tr>
+<td>Tuesday</td>
+<td>Paratha + Curd</td>
+<td>Rajma Rice</td>
+<td>Roti + Mix Veg</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td>Idli + Sambar</td>
+<td>Rice + Dal</td>
+<td>Roti + Chicken/Paneer</td>
+</tr>
+
+<tr>
+<td>Thursday</td>
+<td>Bread + Butter</td>
+<td>Chole Rice</td>
+<td>Roti + Sabji</td>
+</tr>
+
+<tr>
+<td>Friday</td>
+<td>Upma + Tea</td>
+<td>Pulao + Raita</td>
+<td>Dal + Roti</td>
+</tr>
+
+<tr>
+<td>Saturday</td>
+<td>Aloo Paratha</td>
+<td>Rice + Curry</td>
+<td>Paneer + Roti</td>
+</tr>
+
+<tr>
+<td>Sunday</td>
+<td>Puri + Sabji</td>
+<td>Special Lunch</td>
+<td>Special Dinner</td>
+</tr>
+
+
+</table>
+</section>
+
+<section id="rules">
+<h2>Hostel Rules</h2>
+
+<ul>
+<li>Students must maintain cleanliness in their rooms and hostel premises.</li>
+<li>Students should return to the hostel before the allowed entry time.</li>
+<li>Smoking and consumption of alcohol are strictly prohibited inside the hostel.</li>
+<li> Students must take permission from the hostel warden before leaving the campus.</li>
+<li>Any damage to hostel property will be charged to the responsible student.</li>
+<li>should maintain silence during study hours.</li>
+<li>Visitors are allowed only during the permitted visiting hours.</li>
+<li>Students must carry their hostel ID card at all times.</li>
+<li>Ragging is strictly prohibited and serious action will be taken against offenders.</li>
+<li>Students should follow mess timings and maintain discipline in the dining area.</li>
+</ul>
+
+</section>
+
+
+<section id="complaint">
+<h2>Complaint Form</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text" placeholder="Enter Name">
+
+<label>Registration Number</label>
+<input type="text" placeholder="Enter Registration Number">
+
+<label>Room Number</label>
+<input type="text" placeholder="Enter Room Number">
+
+<label>Complaint</label>
+<textarea rows="5" placeholder="Write your complaint"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Hostel | Government Engineering College Kishanganj</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            background: #f4f7fb;
+            position: relative;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("geck.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 650px;
+            opacity: 0.08;
+            z-index: -1;
+        }
+        header {
+            background: white;
+            padding: 15px 50px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+            position: relative;
+            z-index: 2;
+        }
+        header img {
+            width: 85px;
+            height: 85px;
+            object-fit: contain;
+        }
+        header h1 {
+            color: #163d7a;
+            font-size: 28px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+        main {
+            text-align: center;
+            padding: 70px 20px 60px;
+        }
+        .title {
+            font-size: 64px;
+            font-weight: 900;
+            color: #123b75;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        /*HOSTEL DESCRIPTION*/
+        .description {
+            max-width: 850px;
+            margin: auto;
+            font-size: 19px;
+            line-height: 1.8;
+            color: #333;
+            background: rgba(255, 255, 255, 0.92);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        /*HOSTEL MANAGEMENT SECTION*/
+        .hostel-options {
+            display: flex;
+            justify-content: center;
+            margin-top: 55px;
+        }
+        /* CLICKABLE HOSTEL CARD */
+        .hostel-card {
+            width: 420px;
+            padding: 35px 25px;
+            border-radius: 20px;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            display: block;
+        }
+        /* HOVER EFFECT */
+        .hostel-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        /* HOSTEL MANAGEMENT COLOR */
+        .hostel-management {
+            background: linear-gradient(135deg, #1769aa, #123b75);
+        }
+        /* CARD DESCRIPTION */
+        .hostel-card p {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.6;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="geck.png"
+             alt="Government Engineering College Kishanganj Logo">
+        <h1>
+            GOVERNMENT ENGINEERING COLLEGE, KISHANGANJ
+        </h1>
+    </header>
+    <main>
+        <h2 class="title">
+            Campus Hostel
+        </h2>
+        <div class="description">
+            <p>
+                Government Engineering College Kishanganj provides
+                hostel facilities to ensure a comfortable, safe, and
+                supportive living environment for students.
+
+                The campus hostels offer essential amenities and a
+                friendly atmosphere that helps students focus on their
+                academic and personal growth.
+            </p>
+        </div>
+        <div class="hostel-options">
+            <a href="1st page.htm"
+               class="hostel-card hostel-management">
+                Explore Hostel Management
+                <p>
+                    Manage hostel details, student accommodation,
+                    rooms, facilities, and hostel-related information.
+                </p>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
